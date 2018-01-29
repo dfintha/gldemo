@@ -1,0 +1,18 @@
+Basic demonstration project for a primitive OpenGL graphics engine
+==================================================================
+
+This small program was the environment, where I taught myself the basics of
+OpenGL programming. As such, it is far from perfect, but can illustrate some
+basic concepts and techniques in 3D computer graphics.
+
+There are multiple types of 3D objects, that the software can draw: spheres,
+cylinders, rectangles, and Wavefront OBJ models. The model used as demonstration
+for the latter is the Stanford Bunny. There are two usable fragment shaders
+included in the project. One is for Phong shading, which looks almost lifelie,
+and one for non-photorealistic (NPR) shading, which looks like old comics.
+
+You can move around in the 3D space with the W and S keys, look around with
+the mouse, reset your position with the R key, or quit with the Q key. Holding
+Shift causes the camera to move slower.
+
+The project exists purely for academic and demonstrational purposes.
